@@ -1,0 +1,19 @@
+1.iOS中提供了2种推送通知
+	(1)本地推送通知（Local Notification）
+	(2)远程推送通知（Remote Notification）
+2.推送通知的作用：可以让不在前台运行的app，告知用户app内部发生了什么事情
+3.推送的效果
+	(1)UIRemoteNotificationTypeBadge  在应用图标上面显示角标
+	(2)UIRemoteNotificationSound	  声音提醒
+	(3)UIRemoteNotificationAlert      通过alert或者是banner展示内容
+	//http://www.jianshu.com/p/23195b75ccec
+4.推送原理
+	(1)你的app先注册APNS推送功能。（具体的就是在证书上配置包含推送功能）
+	(2)当苹果APNS推送服务器收到你应用的注册消息就会返回一个Device Token给你。
+	(3)你将这个Device Token发送给自己的推送服务器。
+	(4)当需要推送消息时，你的推送服务器把推送的内容，Device Token等一些信息发给苹果的APNS服务器。
+	(5)最后苹果的APNS服务器再把消息推送到目标设备。
+5.注意：Device Token有可能会更改，因此需要在程序每次启动时都去注册并且上传到你的服务器。
+	//http://www.jianshu.com/p/5639a3d2a2be
+	//http://www.jianshu.com/p/501ead50cd47
+	//http://www.jianshu.com/p/86328aa32505

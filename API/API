@@ -1,0 +1,10 @@
+1.UIApplication
+	(1)Use your UIApplication object to do the following:
+		a.暂停接受触摸事件 Temporarily suspend incoming touch events(beginIgnoringInteractionEvents)
+		b.注册远程通知 Register for remote notifications(unregisterForRemoteNotifications)
+		c.摇动手势是否支持redo-undo操作(撤销-重做) Trigger the undo-redo UI(applicationSupportShakeToEdit)
+		d.判断一个app的URL scheme是否能打开 Determine whether there is an installed app registered to handle a URL scheme(canOpenURL:)
+		e.应用进入后台的扩展方法 Extend the execution of the app so that it can finish a task in the background(beginBackgroundTaskwithExpirationHandler:,beginBackgroundTaskWithName:expirationHandler:)
+		f.定义和取消本地通知 Schedule and cancel local notifications(scheduleLocalNotification:,cancelLocalNotificaion:)
+		g.协调接受远程控制事件 Coordinate the reception of remote-control events(beginReceivingRemoteControlEvents(开启远程控制),endReceivingRemoteControlEvents(关闭远程控制))
+		h.Perform app-level state restoration tasks(methods in the Managing the State Restoration Behavior task group)

@@ -1,0 +1,538 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		048AB4091C9FC5A2009BBCCE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 048AB4081C9FC5A2009BBCCE /* main.m */; };
+		048AB40C1C9FC5A2009BBCCE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 048AB40B1C9FC5A2009BBCCE /* AppDelegate.m */; };
+		048AB40F1C9FC5A2009BBCCE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 048AB40E1C9FC5A2009BBCCE /* ViewController.m */; };
+		048AB4121C9FC5A2009BBCCE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 048AB4101C9FC5A2009BBCCE /* Main.storyboard */; };
+		048AB4141C9FC5A2009BBCCE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 048AB4131C9FC5A2009BBCCE /* Assets.xcassets */; };
+		048AB4171C9FC5A2009BBCCE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 048AB4151C9FC5A2009BBCCE /* LaunchScreen.storyboard */; };
+		048AB4221C9FC5A3009BBCCE /* TMDataPickerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 048AB4211C9FC5A3009BBCCE /* TMDataPickerTests.m */; };
+		048AB42D1C9FC5A3009BBCCE /* TMDataPickerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 048AB42C1C9FC5A3009BBCCE /* TMDataPickerUITests.m */; };
+		048AB43C1C9FCE78009BBCCE /* TMDatePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 048AB43B1C9FCE78009BBCCE /* TMDatePickerView.m */; };
+		048DE8211CA12C810005C137 /* TMCityPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 048DE8201CA12C810005C137 /* TMCityPickerView.m */; };
+		048DE8231CA12D470005C137 /* City.plist in Resources */ = {isa = PBXBuildFile; fileRef = 048DE8221CA12D470005C137 /* City.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		048AB41E1C9FC5A2009BBCCE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 048AB3FC1C9FC5A2009BBCCE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 048AB4031C9FC5A2009BBCCE;
+			remoteInfo = TMDataPicker;
+		};
+		048AB4291C9FC5A3009BBCCE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 048AB3FC1C9FC5A2009BBCCE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 048AB4031C9FC5A2009BBCCE;
+			remoteInfo = TMDataPicker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		048AB4041C9FC5A2009BBCCE /* TMDataPicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TMDataPicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		048AB4081C9FC5A2009BBCCE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		048AB40A1C9FC5A2009BBCCE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		048AB40B1C9FC5A2009BBCCE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		048AB40D1C9FC5A2009BBCCE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		048AB40E1C9FC5A2009BBCCE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		048AB4111C9FC5A2009BBCCE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		048AB4131C9FC5A2009BBCCE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		048AB4161C9FC5A2009BBCCE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		048AB4181C9FC5A2009BBCCE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		048AB41D1C9FC5A2009BBCCE /* TMDataPickerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TMDataPickerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		048AB4211C9FC5A3009BBCCE /* TMDataPickerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TMDataPickerTests.m; sourceTree = "<group>"; };
+		048AB4231C9FC5A3009BBCCE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		048AB4281C9FC5A3009BBCCE /* TMDataPickerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TMDataPickerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		048AB42C1C9FC5A3009BBCCE /* TMDataPickerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TMDataPickerUITests.m; sourceTree = "<group>"; };
+		048AB42E1C9FC5A3009BBCCE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		048AB43A1C9FCE78009BBCCE /* TMDatePickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMDatePickerView.h; sourceTree = "<group>"; };
+		048AB43B1C9FCE78009BBCCE /* TMDatePickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMDatePickerView.m; sourceTree = "<group>"; };
+		048DE81F1CA12C800005C137 /* TMCityPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMCityPickerView.h; sourceTree = "<group>"; };
+		048DE8201CA12C810005C137 /* TMCityPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMCityPickerView.m; sourceTree = "<group>"; };
+		048DE8221CA12D470005C137 /* City.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = City.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		048AB4011C9FC5A2009BBCCE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		048AB41A1C9FC5A2009BBCCE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		048AB4251C9FC5A3009BBCCE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		048AB3FB1C9FC5A2009BBCCE = {
+			isa = PBXGroup;
+			children = (
+				048AB4061C9FC5A2009BBCCE /* TMDataPicker */,
+				048AB4201C9FC5A3009BBCCE /* TMDataPickerTests */,
+				048AB42B1C9FC5A3009BBCCE /* TMDataPickerUITests */,
+				048AB4051C9FC5A2009BBCCE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		048AB4051C9FC5A2009BBCCE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				048AB4041C9FC5A2009BBCCE /* TMDataPicker.app */,
+				048AB41D1C9FC5A2009BBCCE /* TMDataPickerTests.xctest */,
+				048AB4281C9FC5A3009BBCCE /* TMDataPickerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		048AB4061C9FC5A2009BBCCE /* TMDataPicker */ = {
+			isa = PBXGroup;
+			children = (
+				048DE8221CA12D470005C137 /* City.plist */,
+				048AB40A1C9FC5A2009BBCCE /* AppDelegate.h */,
+				048AB40B1C9FC5A2009BBCCE /* AppDelegate.m */,
+				048AB40D1C9FC5A2009BBCCE /* ViewController.h */,
+				048AB40E1C9FC5A2009BBCCE /* ViewController.m */,
+				048AB43A1C9FCE78009BBCCE /* TMDatePickerView.h */,
+				048AB43B1C9FCE78009BBCCE /* TMDatePickerView.m */,
+				048DE81F1CA12C800005C137 /* TMCityPickerView.h */,
+				048DE8201CA12C810005C137 /* TMCityPickerView.m */,
+				048AB4101C9FC5A2009BBCCE /* Main.storyboard */,
+				048AB4131C9FC5A2009BBCCE /* Assets.xcassets */,
+				048AB4151C9FC5A2009BBCCE /* LaunchScreen.storyboard */,
+				048AB4181C9FC5A2009BBCCE /* Info.plist */,
+				048AB4071C9FC5A2009BBCCE /* Supporting Files */,
+			);
+			path = TMDataPicker;
+			sourceTree = "<group>";
+		};
+		048AB4071C9FC5A2009BBCCE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				048AB4081C9FC5A2009BBCCE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		048AB4201C9FC5A3009BBCCE /* TMDataPickerTests */ = {
+			isa = PBXGroup;
+			children = (
+				048AB4211C9FC5A3009BBCCE /* TMDataPickerTests.m */,
+				048AB4231C9FC5A3009BBCCE /* Info.plist */,
+			);
+			path = TMDataPickerTests;
+			sourceTree = "<group>";
+		};
+		048AB42B1C9FC5A3009BBCCE /* TMDataPickerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				048AB42C1C9FC5A3009BBCCE /* TMDataPickerUITests.m */,
+				048AB42E1C9FC5A3009BBCCE /* Info.plist */,
+			);
+			path = TMDataPickerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		048AB4031C9FC5A2009BBCCE /* TMDataPicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 048AB4311C9FC5A3009BBCCE /* Build configuration list for PBXNativeTarget "TMDataPicker" */;
+			buildPhases = (
+				048AB4001C9FC5A2009BBCCE /* Sources */,
+				048AB4011C9FC5A2009BBCCE /* Frameworks */,
+				048AB4021C9FC5A2009BBCCE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TMDataPicker;
+			productName = TMDataPicker;
+			productReference = 048AB4041C9FC5A2009BBCCE /* TMDataPicker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		048AB41C1C9FC5A2009BBCCE /* TMDataPickerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 048AB4341C9FC5A3009BBCCE /* Build configuration list for PBXNativeTarget "TMDataPickerTests" */;
+			buildPhases = (
+				048AB4191C9FC5A2009BBCCE /* Sources */,
+				048AB41A1C9FC5A2009BBCCE /* Frameworks */,
+				048AB41B1C9FC5A2009BBCCE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				048AB41F1C9FC5A2009BBCCE /* PBXTargetDependency */,
+			);
+			name = TMDataPickerTests;
+			productName = TMDataPickerTests;
+			productReference = 048AB41D1C9FC5A2009BBCCE /* TMDataPickerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		048AB4271C9FC5A3009BBCCE /* TMDataPickerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 048AB4371C9FC5A3009BBCCE /* Build configuration list for PBXNativeTarget "TMDataPickerUITests" */;
+			buildPhases = (
+				048AB4241C9FC5A3009BBCCE /* Sources */,
+				048AB4251C9FC5A3009BBCCE /* Frameworks */,
+				048AB4261C9FC5A3009BBCCE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				048AB42A1C9FC5A3009BBCCE /* PBXTargetDependency */,
+			);
+			name = TMDataPickerUITests;
+			productName = TMDataPickerUITests;
+			productReference = 048AB4281C9FC5A3009BBCCE /* TMDataPickerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		048AB3FC1C9FC5A2009BBCCE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Taskmall;
+				TargetAttributes = {
+					048AB4031C9FC5A2009BBCCE = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					048AB41C1C9FC5A2009BBCCE = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 048AB4031C9FC5A2009BBCCE;
+					};
+					048AB4271C9FC5A3009BBCCE = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 048AB4031C9FC5A2009BBCCE;
+					};
+				};
+			};
+			buildConfigurationList = 048AB3FF1C9FC5A2009BBCCE /* Build configuration list for PBXProject "TMDataPicker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 048AB3FB1C9FC5A2009BBCCE;
+			productRefGroup = 048AB4051C9FC5A2009BBCCE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				048AB4031C9FC5A2009BBCCE /* TMDataPicker */,
+				048AB41C1C9FC5A2009BBCCE /* TMDataPickerTests */,
+				048AB4271C9FC5A3009BBCCE /* TMDataPickerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		048AB4021C9FC5A2009BBCCE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				048AB4171C9FC5A2009BBCCE /* LaunchScreen.storyboard in Resources */,
+				048DE8231CA12D470005C137 /* City.plist in Resources */,
+				048AB4141C9FC5A2009BBCCE /* Assets.xcassets in Resources */,
+				048AB4121C9FC5A2009BBCCE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		048AB41B1C9FC5A2009BBCCE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		048AB4261C9FC5A3009BBCCE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		048AB4001C9FC5A2009BBCCE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				048AB40F1C9FC5A2009BBCCE /* ViewController.m in Sources */,
+				048DE8211CA12C810005C137 /* TMCityPickerView.m in Sources */,
+				048AB43C1C9FCE78009BBCCE /* TMDatePickerView.m in Sources */,
+				048AB40C1C9FC5A2009BBCCE /* AppDelegate.m in Sources */,
+				048AB4091C9FC5A2009BBCCE /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		048AB4191C9FC5A2009BBCCE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				048AB4221C9FC5A3009BBCCE /* TMDataPickerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		048AB4241C9FC5A3009BBCCE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				048AB42D1C9FC5A3009BBCCE /* TMDataPickerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		048AB41F1C9FC5A2009BBCCE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 048AB4031C9FC5A2009BBCCE /* TMDataPicker */;
+			targetProxy = 048AB41E1C9FC5A2009BBCCE /* PBXContainerItemProxy */;
+		};
+		048AB42A1C9FC5A3009BBCCE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 048AB4031C9FC5A2009BBCCE /* TMDataPicker */;
+			targetProxy = 048AB4291C9FC5A3009BBCCE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		048AB4101C9FC5A2009BBCCE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				048AB4111C9FC5A2009BBCCE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		048AB4151C9FC5A2009BBCCE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				048AB4161C9FC5A2009BBCCE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		048AB42F1C9FC5A3009BBCCE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		048AB4301C9FC5A3009BBCCE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		048AB4321C9FC5A3009BBCCE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TMDataPicker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.taskmall.www.TMDataPicker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		048AB4331C9FC5A3009BBCCE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TMDataPicker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.taskmall.www.TMDataPicker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		048AB4351C9FC5A3009BBCCE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TMDataPickerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.taskmall.www.TMDataPickerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TMDataPicker.app/TMDataPicker";
+			};
+			name = Debug;
+		};
+		048AB4361C9FC5A3009BBCCE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TMDataPickerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.taskmall.www.TMDataPickerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TMDataPicker.app/TMDataPicker";
+			};
+			name = Release;
+		};
+		048AB4381C9FC5A3009BBCCE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TMDataPickerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.taskmall.www.TMDataPickerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TMDataPicker;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		048AB4391C9FC5A3009BBCCE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TMDataPickerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.taskmall.www.TMDataPickerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TMDataPicker;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		048AB3FF1C9FC5A2009BBCCE /* Build configuration list for PBXProject "TMDataPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				048AB42F1C9FC5A3009BBCCE /* Debug */,
+				048AB4301C9FC5A3009BBCCE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		048AB4311C9FC5A3009BBCCE /* Build configuration list for PBXNativeTarget "TMDataPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				048AB4321C9FC5A3009BBCCE /* Debug */,
+				048AB4331C9FC5A3009BBCCE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		048AB4341C9FC5A3009BBCCE /* Build configuration list for PBXNativeTarget "TMDataPickerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				048AB4351C9FC5A3009BBCCE /* Debug */,
+				048AB4361C9FC5A3009BBCCE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		048AB4371C9FC5A3009BBCCE /* Build configuration list for PBXNativeTarget "TMDataPickerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				048AB4381C9FC5A3009BBCCE /* Debug */,
+				048AB4391C9FC5A3009BBCCE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 048AB3FC1C9FC5A2009BBCCE /* Project object */;
+}

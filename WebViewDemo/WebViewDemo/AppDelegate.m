@@ -17,6 +17,9 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    //http://io.diveinedu.com/2016/01/09/iOS应用网络安全之HTTPS.html
+    
     return YES;
 }
 
