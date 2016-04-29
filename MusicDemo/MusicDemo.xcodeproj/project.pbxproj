@@ -18,6 +18,17 @@
 		049788EC1CA2697F00F65ABF /* MusicDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 049788EB1CA2697F00F65ABF /* MusicDemoUITests.m */; };
 		049788FA1CA27B4000F65ABF /* 四月是你的谎言.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 049788F91CA27B4000F65ABF /* 四月是你的谎言.mp3 */; };
 		049789001CA291CB00F65ABF /* head.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 049788FF1CA291CB00F65ABF /* head.jpg */; };
+		04CBE9831CB7A35100DEECEC /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04CBE9821CB7A35100DEECEC /* CFNetwork.framework */; };
+		04CBE9851CB7A35C00DEECEC /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04CBE9841CB7A35C00DEECEC /* CoreFoundation.framework */; };
+		04CBE9871CB7A37000DEECEC /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04CBE9861CB7A37000DEECEC /* CoreTelephony.framework */; };
+		04CBE9891CB7A38D00DEECEC /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04CBE9881CB7A38D00DEECEC /* SystemConfiguration.framework */; };
+		04CBE98B1CB7A39400DEECEC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04CBE98A1CB7A39400DEECEC /* CoreGraphics.framework */; };
+		04CBE98D1CB7A39B00DEECEC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04CBE98C1CB7A39B00DEECEC /* Foundation.framework */; };
+		04CBE98F1CB7A3A200DEECEC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04CBE98E1CB7A3A200DEECEC /* UIKit.framework */; };
+		04CBE9911CB7A3AA00DEECEC /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04CBE9901CB7A3AA00DEECEC /* Security.framework */; };
+		04CBE9931CB7A55E00DEECEC /* PushConfig.plist in Resources */ = {isa = PBXBuildFile; fileRef = 04CBE9921CB7A55E00DEECEC /* PushConfig.plist */; };
+		04CBE99B1CB7B0C100DEECEC /* jpush-ios-2.1.5.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 04CBE9991CB7B0C100DEECEC /* jpush-ios-2.1.5.a */; };
+		04CBE99D1CB7B11900DEECEC /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 04CBE99C1CB7B11900DEECEC /* libz.tbd */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +69,18 @@
 		049788ED1CA2697F00F65ABF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		049788F91CA27B4000F65ABF /* 四月是你的谎言.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "四月是你的谎言.mp3"; sourceTree = "<group>"; };
 		049788FF1CA291CB00F65ABF /* head.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = head.jpg; sourceTree = "<group>"; };
+		04CBE9821CB7A35100DEECEC /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		04CBE9841CB7A35C00DEECEC /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		04CBE9861CB7A37000DEECEC /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		04CBE9881CB7A38D00DEECEC /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		04CBE98A1CB7A39400DEECEC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		04CBE98C1CB7A39B00DEECEC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		04CBE98E1CB7A3A200DEECEC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		04CBE9901CB7A3AA00DEECEC /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		04CBE9921CB7A55E00DEECEC /* PushConfig.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = PushConfig.plist; sourceTree = "<group>"; };
+		04CBE9991CB7B0C100DEECEC /* jpush-ios-2.1.5.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "jpush-ios-2.1.5.a"; sourceTree = "<group>"; };
+		04CBE99A1CB7B0C100DEECEC /* JPUSHService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPUSHService.h; sourceTree = "<group>"; };
+		04CBE99C1CB7B11900DEECEC /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +88,16 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04CBE99D1CB7B11900DEECEC /* libz.tbd in Frameworks */,
+				04CBE9911CB7A3AA00DEECEC /* Security.framework in Frameworks */,
+				04CBE98F1CB7A3A200DEECEC /* UIKit.framework in Frameworks */,
+				04CBE98D1CB7A39B00DEECEC /* Foundation.framework in Frameworks */,
+				04CBE98B1CB7A39400DEECEC /* CoreGraphics.framework in Frameworks */,
+				04CBE9891CB7A38D00DEECEC /* SystemConfiguration.framework in Frameworks */,
+				04CBE9871CB7A37000DEECEC /* CoreTelephony.framework in Frameworks */,
+				04CBE99B1CB7B0C100DEECEC /* jpush-ios-2.1.5.a in Frameworks */,
+				04CBE9851CB7A35C00DEECEC /* CoreFoundation.framework in Frameworks */,
+				04CBE9831CB7A35100DEECEC /* CFNetwork.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,6 +121,16 @@
 		049788BA1CA2697F00F65ABF = {
 			isa = PBXGroup;
 			children = (
+				04CBE99C1CB7B11900DEECEC /* libz.tbd */,
+				04CBE9921CB7A55E00DEECEC /* PushConfig.plist */,
+				04CBE9901CB7A3AA00DEECEC /* Security.framework */,
+				04CBE98E1CB7A3A200DEECEC /* UIKit.framework */,
+				04CBE98C1CB7A39B00DEECEC /* Foundation.framework */,
+				04CBE98A1CB7A39400DEECEC /* CoreGraphics.framework */,
+				04CBE9881CB7A38D00DEECEC /* SystemConfiguration.framework */,
+				04CBE9861CB7A37000DEECEC /* CoreTelephony.framework */,
+				04CBE9841CB7A35C00DEECEC /* CoreFoundation.framework */,
+				04CBE9821CB7A35100DEECEC /* CFNetwork.framework */,
 				049788C51CA2697F00F65ABF /* MusicDemo */,
 				049788DF1CA2697F00F65ABF /* MusicDemoTests */,
 				049788EA1CA2697F00F65ABF /* MusicDemoUITests */,
@@ -108,6 +151,7 @@
 		049788C51CA2697F00F65ABF /* MusicDemo */ = {
 			isa = PBXGroup;
 			children = (
+				04CBE9981CB7B0C100DEECEC /* lib */,
 				049788FF1CA291CB00F65ABF /* head.jpg */,
 				049788F91CA27B4000F65ABF /* 四月是你的谎言.mp3 */,
 				049788C91CA2697F00F65ABF /* AppDelegate.h */,
@@ -149,6 +193,15 @@
 				049788ED1CA2697F00F65ABF /* Info.plist */,
 			);
 			path = MusicDemoUITests;
+			sourceTree = "<group>";
+		};
+		04CBE9981CB7B0C100DEECEC /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				04CBE9991CB7B0C100DEECEC /* jpush-ios-2.1.5.a */,
+				04CBE99A1CB7B0C100DEECEC /* JPUSHService.h */,
+			);
+			path = lib;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,6 +312,7 @@
 				049789001CA291CB00F65ABF /* head.jpg in Resources */,
 				049788D61CA2697F00F65ABF /* LaunchScreen.storyboard in Resources */,
 				049788D31CA2697F00F65ABF /* Assets.xcassets in Resources */,
+				04CBE9931CB7A55E00DEECEC /* PushConfig.plist in Resources */,
 				049788D11CA2697F00F65ABF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -428,10 +482,15 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = MusicDemo/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MusicDemo/lib",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = cn.taskmall.www.TMMusicDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "";
 			};
 			name = Debug;
 		};
@@ -441,10 +500,15 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = MusicDemo/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MusicDemo/lib",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = cn.taskmall.www.TMMusicDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "";
 			};
 			name = Release;
 		};

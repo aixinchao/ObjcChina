@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		040300DE1CD2F0C900C52B07 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 040300DD1CD2F0C900C52B07 /* BaseViewController.m */; };
 		04760BF01C8851390081ABF2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04760BEF1C8851390081ABF2 /* main.m */; };
 		04760BF31C8851390081ABF2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04760BF21C8851390081ABF2 /* AppDelegate.m */; };
 		04760BF61C88513A0081ABF2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04760BF51C88513A0081ABF2 /* ViewController.m */; };
@@ -35,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		040300DC1CD2F0C900C52B07 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		040300DD1CD2F0C900C52B07 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
 		04760BEB1C8851390081ABF2 /* WebViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WebViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04760BEF1C8851390081ABF2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		04760BF11C8851390081ABF2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -105,6 +108,8 @@
 				04760BF21C8851390081ABF2 /* AppDelegate.m */,
 				04760BF41C88513A0081ABF2 /* ViewController.h */,
 				04760BF51C88513A0081ABF2 /* ViewController.m */,
+				040300DC1CD2F0C900C52B07 /* BaseViewController.h */,
+				040300DD1CD2F0C900C52B07 /* BaseViewController.m */,
 				04760BF71C88513A0081ABF2 /* Main.storyboard */,
 				04760BFA1C88513A0081ABF2 /* Assets.xcassets */,
 				04760BFC1C88513A0081ABF2 /* LaunchScreen.storyboard */,
@@ -271,6 +276,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				04760BF61C88513A0081ABF2 /* ViewController.m in Sources */,
+				040300DE1CD2F0C900C52B07 /* BaseViewController.m in Sources */,
 				04760BF31C8851390081ABF2 /* AppDelegate.m in Sources */,
 				04760BF01C8851390081ABF2 /* main.m in Sources */,
 			);
@@ -496,6 +502,7 @@
 				04760C1A1C88513B0081ABF2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		04760C1B1C88513B0081ABF2 /* Build configuration list for PBXNativeTarget "WebViewDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +511,7 @@
 				04760C1D1C88513B0081ABF2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		04760C1E1C88513B0081ABF2 /* Build configuration list for PBXNativeTarget "WebViewDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +520,7 @@
 				04760C201C88513B0081ABF2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
