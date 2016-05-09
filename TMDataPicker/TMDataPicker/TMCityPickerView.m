@@ -23,7 +23,7 @@
         [self addSubview:view];
         
         self.backView = [[UIView alloc] init];
-        self.backView.backgroundColor = [UIColor colorWithRed:200.f/255.0 green:200.f/255.0 blue:200.f/255.0 alpha:1];
+        self.backView.backgroundColor = [UIColor whiteColor];
         self.backView.frame = CGRectMake(0.f, kHeight, kWidth, 220.f);
         [self addSubview:self.backView];
         
@@ -37,12 +37,9 @@
             UIButton * button = [UIButton buttonWithType:UIButtonTypeCustom];
             button.tag = 1000+i;
             button.frame = (i==0)?CGRectMake(10.f, 10.f, 60.f, 35.f):CGRectMake(kWidth-70.f, 10.f, 60.f, 35.f);
-            button.titleLabel.font = [UIFont systemFontOfSize:15.f];
-            button.layer.cornerRadius = 5.f;
-            button.layer.borderColor = [UIColor colorWithRed:180.f/255.0 green:180.f/255.0 blue:180.f/255.0 alpha:1].CGColor;
-            button.layer.borderWidth = 1.f;
+            button.titleLabel.font = [UIFont systemFontOfSize:17.f];
             [button setTitle:(i==0)?@"取消":@"完成" forState:UIControlStateNormal];
-            [button setTitleColor:[UIColor colorWithRed:93.f/255.0 green:93.f/255.0 blue:93.f/255.0 alpha:1] forState:UIControlStateNormal];
+            [button setTitleColor:[UIColor colorWithRed:5.f/255.0 green:125.f/255.0 blue:255.f/255.0 alpha:1] forState:UIControlStateNormal];
             [button addTarget:self action:@selector(buttonClick:) forControlEvents:UIControlEventTouchUpInside];
             [self.backView addSubview:button];
         }

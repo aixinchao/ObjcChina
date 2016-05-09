@@ -44,7 +44,7 @@
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    return 10;
+    return 1;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
@@ -62,11 +62,11 @@
     return cell;
 }
 
-- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
-    UIView * cellView = [self createCellView:indexPath];
-    
-    return cellView.frame.size.height + 10.f;
-}
+//- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
+//    UIView * cellView = [self createCellView:indexPath];
+//    
+//    return cellView.frame.size.height + 10.f;
+//}
 
 - (UIView *)createCellView:(NSIndexPath *)indexPath {
     UIView * cellView = [[UIView alloc] init];

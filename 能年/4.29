@@ -1,0 +1,31 @@
+1.	int -> NSInteger
+	unsigned -> NSUInteger
+	float -> CGFloat
+	动画时间 -> NSTimeinterval
+2.	新版枚举
+	typedef NS_ENUM(NSInteger,UIViewAnimationCurve) {
+		UIViewAnimationCurveEaseInOut,
+		UIViewAnimationCurveEaseIn,
+		UIViewAnimationCurveEaseOut,
+		UIViewAnimationCurveLinear
+	}
+3.	替代Format字符串
+	适配64-bit时，遇到：
+		NSArray * items = @[@1,@2,@3];
+		NSLog(@"数组元数个数：%lu",(unsigned long)items.count);
+	一般情况下，利用NSNumber的 @ 语法就可以解决：
+		NSArray * items = @[@1,@2,@3];
+		NSLog(@"数组元数个数：%@"，@(items,count));
+	同理：
+	NSInteger i = 520;
+	NSString * string @(i).stringValue;
+4.	32-bit，BOOL被定义为 signed char，@encode（BOOL）的结果是‘c’
+	64-bit，BOOL被定义为 bool，@encode（BOOL）的结果是‘B’
+	32-bit版本的BOOL包括了256个值的可能性，还会引起一些坑。
+	64-bit下的只有0（NO），1（YES）两种可能
+5.	注意
+	*	不要将只能强转成证书
+	*	程序各处使用统一的数据类型
+	*	对不同类型的整数做运算时一定要注意
+//http://blog.sunnyxx.com/2014/12/20/64-bit-tips/
+//https://github.com/ChenYilong/iOSInterviewQuestions/blob/master/01《招聘一个靠谱的iOS》面试题参考答案/《招聘一个靠谱的iOS》面试题参考答案（上）.md#1-风格纠错题

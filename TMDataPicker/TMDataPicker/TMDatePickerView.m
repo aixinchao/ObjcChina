@@ -33,7 +33,8 @@
         [self addSubview:view];
         
         self.backView = [[UIView alloc] init];
-        self.backView.backgroundColor = [UIColor colorWithRed:200.f/255.0 green:200.f/255.0 blue:200.f/255.0 alpha:1];
+//        self.backView.backgroundColor = [UIColor colorWithRed:200.f/255.0 green:200.f/255.0 blue:200.f/255.0 alpha:1];
+        self.backView.backgroundColor = [UIColor whiteColor];
         self.backView.frame = CGRectMake(0.f, kHeight, kWidth, 220.f);
         [self addSubview:self.backView];
         
@@ -49,12 +50,9 @@
             UIButton * button = [UIButton buttonWithType:UIButtonTypeCustom];
             button.tag = 1000+i;
             button.frame = (i==0)?CGRectMake(10.f, 10.f, 60.f, 35.f):CGRectMake(kWidth-70.f, 10.f, 60.f, 35.f);
-            button.titleLabel.font = [UIFont systemFontOfSize:15.f];
-            button.layer.cornerRadius = 5.f;
-            button.layer.borderColor = [UIColor colorWithRed:180.f/255.0 green:180.f/255.0 blue:180.f/255.0 alpha:1].CGColor;
-            button.layer.borderWidth = 1.f;
+            button.titleLabel.font = [UIFont systemFontOfSize:17.f];
             [button setTitle:(i==0)?@"取消":@"完成" forState:UIControlStateNormal];
-            [button setTitleColor:[UIColor colorWithRed:93.f/255.0 green:93.f/255.0 blue:93.f/255.0 alpha:1] forState:UIControlStateNormal];
+            [button setTitleColor:[UIColor colorWithRed:5.f/255.0 green:125.f/255.0 blue:255.f/255.0 alpha:1] forState:UIControlStateNormal];
             [button addTarget:self action:@selector(buttonClick:) forControlEvents:UIControlEventTouchUpInside];
             [self.backView addSubview:button];
         }
@@ -96,19 +94,19 @@
 
 - (void)getDateDateSource {
     for (int i = 1990; i <= 2050; i++) {
-        [self.yearArray addObject:[NSString stringWithFormat:@"%d",i]];
+        [self.yearArray addObject:[NSString stringWithFormat:@"%d年",i]];
     }
     for (int i = 1; i < 13; i++) {
-        [self.monthArray addObject:[NSString stringWithFormat:@"%.2d",i]];
+        [self.monthArray addObject:[NSString stringWithFormat:@"%.2d月",i]];
     }
     for (int i = 1; i < 32; i++) {
-        [self.dayArray addObject:[NSString stringWithFormat:@"%.2d",i]];
+        [self.dayArray addObject:[NSString stringWithFormat:@"%.2d日",i]];
     }
     for (int i = 1; i < 25; i++) {
-        [self.hourArray addObject:[NSString stringWithFormat:@"%.2d",i]];
+        [self.hourArray addObject:[NSString stringWithFormat:@"%.2d时",i]];
     }
     for (int i = 0; i < 60; i++) {
-        [self.minuteArray addObject:[NSString stringWithFormat:@"%.2d",i]];
+        [self.minuteArray addObject:[NSString stringWithFormat:@"%.2d分",i]];
     }
 }
 
@@ -117,11 +115,11 @@
         if (sender.tag == 1000) {
             [self.delegate datePickerView:self withDate:nil];
         } else {
-            NSString * yearString = [self.yearArray objectAtIndex:[self.pickerView selectedRowInComponent:0]];
-            NSString * monthString = [self.monthArray objectAtIndex:[self.pickerView selectedRowInComponent:1]];
-            NSString * dayString = [self.dayArray objectAtIndex:[self.pickerView selectedRowInComponent:2]];
-            NSString * hourString = [self.hourArray objectAtIndex:[self.pickerView selectedRowInComponent:3]];
-            NSString * minuteString = [self.minuteArray objectAtIndex:[self.pickerView selectedRowInComponent:4]];
+            NSString * yearString = [[self.yearArray objectAtIndex:[self.pickerView selectedRowInComponent:0]] substringWithRange:NSMakeRange(0, 4)];
+            NSString * monthString = [[self.monthArray objectAtIndex:[self.pickerView selectedRowInComponent:1]] substringWithRange:NSMakeRange(0, 2)];
+            NSString * dayString = [[self.dayArray objectAtIndex:[self.pickerView selectedRowInComponent:2]] substringWithRange:NSMakeRange(0, 2)];
+            NSString * hourString = [[self.hourArray objectAtIndex:[self.pickerView selectedRowInComponent:3]] substringWithRange:NSMakeRange(0, 2)];
+            NSString * minuteString = [[self.minuteArray objectAtIndex:[self.pickerView selectedRowInComponent:4]] substringWithRange:NSMakeRange(0, 2)];
             [self.delegate datePickerView:self withDate:[NSString stringWithFormat:@"%@-%@-%@ %@:%@:00 000",yearString,monthString,dayString,hourString,minuteString]];
             
         }
@@ -139,8 +137,8 @@
     } else if (component == 1) {
         return self.monthArray.count;
     } else if (component == 2) {
-        NSString * yearString = [self.yearArray objectAtIndex:[self.pickerView selectedRowInComponent:0]];
-        NSString * monthString = [self.monthArray objectAtIndex:[self.pickerView selectedRowInComponent:1]];
+        NSString * yearString = [[self.yearArray objectAtIndex:[self.pickerView selectedRowInComponent:0]] substringWithRange:NSMakeRange(0, 4)];
+        NSString * monthString = [[self.monthArray objectAtIndex:[self.pickerView selectedRowInComponent:1]] substringWithRange:NSMakeRange(0, 2)];
         if ([monthString isEqualToString:@"02"]) {
             if ((([yearString integerValue]%4 == 0 && [yearString integerValue]%100 !=0) || [yearString integerValue]%400==0)) {
                 return self.dayArray.count-2;

@@ -2,3 +2,17 @@
 2.http://www.gzhatu.com/dingwei.html 经纬度
 3.http://www.bootcss.com/p/git-guide/ git
 4.http://www.cnblogs.com/cnblogsfans/p/5075073.html
+5.http://my.oschina.net/panyong/blog/223260  数组排序
+6.http://www.jianshu.com/p/70b1222715b3 UIAlertController适配ios8一下
+7.http://blog.csdn.net/lizeyang/article/details/39496585 多参数之间，建议用逗号做分隔符
+
+字典转模型框架
+	•	Mantle
+	◦	所有模型都必须继承自MTModel
+	•	JSONModel
+	◦	所有模型都必须继承自JSONModel
+	•	MJExtension
+	◦	不需要强制继承任何其他类
+
+8.http://allluckly.cn/ 博客
+9.http://blog.sunnyxx.com 博客
