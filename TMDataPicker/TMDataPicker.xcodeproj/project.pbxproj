@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		041DD62E1CE9BC6900861C41 /* 300x220.png in Resources */ = {isa = PBXBuildFile; fileRef = 041DD62C1CE9BC6900861C41 /* 300x220.png */; };
+		041DD62F1CE9BC6900861C41 /* 355x220.png in Resources */ = {isa = PBXBuildFile; fileRef = 041DD62D1CE9BC6900861C41 /* 355x220.png */; };
 		048AB4091C9FC5A2009BBCCE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 048AB4081C9FC5A2009BBCCE /* main.m */; };
 		048AB40C1C9FC5A2009BBCCE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 048AB40B1C9FC5A2009BBCCE /* AppDelegate.m */; };
 		048AB40F1C9FC5A2009BBCCE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 048AB40E1C9FC5A2009BBCCE /* ViewController.m */; };
@@ -38,6 +40,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		041DD62C1CE9BC6900861C41 /* 300x220.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 300x220.png; sourceTree = "<group>"; };
+		041DD62D1CE9BC6900861C41 /* 355x220.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 355x220.png; sourceTree = "<group>"; };
 		048AB4041C9FC5A2009BBCCE /* TMDataPicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TMDataPicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		048AB4081C9FC5A2009BBCCE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		048AB40A1C9FC5A2009BBCCE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -109,6 +113,8 @@
 		048AB4061C9FC5A2009BBCCE /* TMDataPicker */ = {
 			isa = PBXGroup;
 			children = (
+				041DD62C1CE9BC6900861C41 /* 300x220.png */,
+				041DD62D1CE9BC6900861C41 /* 355x220.png */,
 				048DE8221CA12D470005C137 /* City.plist */,
 				048AB40A1C9FC5A2009BBCCE /* AppDelegate.h */,
 				048AB40B1C9FC5A2009BBCCE /* AppDelegate.m */,
@@ -256,10 +262,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				041DD62E1CE9BC6900861C41 /* 300x220.png in Resources */,
 				048AB4171C9FC5A2009BBCCE /* LaunchScreen.storyboard in Resources */,
 				048DE8231CA12D470005C137 /* City.plist in Resources */,
 				048AB4141C9FC5A2009BBCCE /* Assets.xcassets in Resources */,
 				048AB4121C9FC5A2009BBCCE /* Main.storyboard in Resources */,
+				041DD62F1CE9BC6900861C41 /* 355x220.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

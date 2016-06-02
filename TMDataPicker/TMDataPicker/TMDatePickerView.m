@@ -38,7 +38,11 @@
         self.backView.frame = CGRectMake(0.f, kHeight, kWidth, 220.f);
         [self addSubview:self.backView];
         
-        self.pickerView = [[UIPickerView alloc] initWithFrame:CGRectMake(0.f, 40.f, kWidth, 180.f)];
+        UIImageView * imageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"355x220"]];
+        imageView.frame = CGRectMake(10.f, 50.f, kWidth-20, 160.f);
+        [self.backView addSubview:imageView];
+        
+        self.pickerView = [[UIPickerView alloc] initWithFrame:CGRectMake(10.f, 40.f, kWidth-20, 180.f)];
         self.pickerView.showsSelectionIndicator = YES;
         self.pickerView.delegate = self;
         self.pickerView.dataSource = self;
@@ -159,7 +163,7 @@
 
 #pragma mark -- UIPickerViewDelegate
 - (CGFloat)pickerView:(UIPickerView *)pickerView widthForComponent:(NSInteger)component {
-    return (kWidth-20.f)/5;
+    return (kWidth-30.f)/5;
 }
 
 - (CGFloat)pickerView:(UIPickerView *)pickerView rowHeightForComponent:(NSInteger)component {
