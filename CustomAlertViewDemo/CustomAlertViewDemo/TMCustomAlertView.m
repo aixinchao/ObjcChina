@@ -10,6 +10,10 @@
 
 @implementation TMCustomAlertView
 
+- (void)dealloc {
+    NSLog(@"123");
+}
+
 - (id)initWithFrame:(CGRect)frame {
     self = [super initWithFrame:frame];
     if (self) {

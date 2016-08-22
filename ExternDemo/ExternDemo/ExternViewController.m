@@ -16,6 +16,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.view.backgroundColor = [UIColor whiteColor];
     // Do any additional setup after loading the view.
     //要在这个类使用EXBarNotification 需要创建Header.h文件  在里面声明 extern NSString * const EXBarNotification;
     

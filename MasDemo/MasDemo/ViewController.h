@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "TMPubOnSearchViewController.h"
 
 @interface ViewController : UIViewController
 

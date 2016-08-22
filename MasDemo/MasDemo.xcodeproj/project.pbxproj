@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		046222981D33693200470AD5 /* area.json in Resources */ = {isa = PBXBuildFile; fileRef = 046222971D33693100470AD5 /* area.json */; };
 		04EE62E31CED9DF700EA2908 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04EE62E21CED9DF700EA2908 /* main.m */; };
 		04EE62E61CED9DF700EA2908 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04EE62E51CED9DF700EA2908 /* AppDelegate.m */; };
 		04EE62E91CED9DF700EA2908 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04EE62E81CED9DF700EA2908 /* ViewController.m */; };
@@ -26,6 +27,13 @@
 		04EE633A1CED9E2600EA2908 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 04EE632C1CED9E2600EA2908 /* NSLayoutConstraint+MASDebugAdditions.m */; };
 		04EE633B1CED9E2600EA2908 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 04EE632E1CED9E2600EA2908 /* View+MASAdditions.m */; };
 		04EE633C1CED9E2600EA2908 /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 04EE63311CED9E2600EA2908 /* ViewController+MASAdditions.m */; };
+		04FB6AD81D29F9C300C2DEE9 /* TMPubOnSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FB6AD71D29F9C300C2DEE9 /* TMPubOnSearchViewController.m */; };
+		04FB6ADB1D29FEF800C2DEE9 /* waiting02.png in Resources */ = {isa = PBXBuildFile; fileRef = 04FB6AD91D29FEF800C2DEE9 /* waiting02.png */; };
+		04FB6ADC1D29FEF800C2DEE9 /* waiting01.png in Resources */ = {isa = PBXBuildFile; fileRef = 04FB6ADA1D29FEF800C2DEE9 /* waiting01.png */; };
+		04FB6ADF1D29FF0400C2DEE9 /* all02.png in Resources */ = {isa = PBXBuildFile; fileRef = 04FB6ADD1D29FF0400C2DEE9 /* all02.png */; };
+		04FB6AE01D29FF0400C2DEE9 /* all01.png in Resources */ = {isa = PBXBuildFile; fileRef = 04FB6ADE1D29FF0400C2DEE9 /* all01.png */; };
+		04FB6AE21D2A302500C2DEE9 /* chatXin.png in Resources */ = {isa = PBXBuildFile; fileRef = 04FB6AE11D2A302400C2DEE9 /* chatXin.png */; };
+		04FB6AE51D2A402700C2DEE9 /* TMStepAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FB6AE41D2A402700C2DEE9 /* TMStepAlertView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +54,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		046222971D33693100470AD5 /* area.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = area.json; sourceTree = "<group>"; };
 		04EE62DE1CED9DF700EA2908 /* MasDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MasDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04EE62E21CED9DF700EA2908 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		04EE62E41CED9DF700EA2908 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -88,6 +97,15 @@
 		04EE632F1CED9E2600EA2908 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
 		04EE63301CED9E2600EA2908 /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ViewController+MASAdditions.h"; sourceTree = "<group>"; };
 		04EE63311CED9E2600EA2908 /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ViewController+MASAdditions.m"; sourceTree = "<group>"; };
+		04FB6AD61D29F9C300C2DEE9 /* TMPubOnSearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMPubOnSearchViewController.h; sourceTree = "<group>"; };
+		04FB6AD71D29F9C300C2DEE9 /* TMPubOnSearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMPubOnSearchViewController.m; sourceTree = "<group>"; };
+		04FB6AD91D29FEF800C2DEE9 /* waiting02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = waiting02.png; sourceTree = "<group>"; };
+		04FB6ADA1D29FEF800C2DEE9 /* waiting01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = waiting01.png; sourceTree = "<group>"; };
+		04FB6ADD1D29FF0400C2DEE9 /* all02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = all02.png; sourceTree = "<group>"; };
+		04FB6ADE1D29FF0400C2DEE9 /* all01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = all01.png; sourceTree = "<group>"; };
+		04FB6AE11D2A302400C2DEE9 /* chatXin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chatXin.png; sourceTree = "<group>"; };
+		04FB6AE31D2A402700C2DEE9 /* TMStepAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMStepAlertView.h; sourceTree = "<group>"; };
+		04FB6AE41D2A402700C2DEE9 /* TMStepAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMStepAlertView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,11 +156,21 @@
 		04EE62E01CED9DF700EA2908 /* MasDemo */ = {
 			isa = PBXGroup;
 			children = (
+				046222971D33693100470AD5 /* area.json */,
 				04EE63171CED9E2600EA2908 /* Masonry */,
+				04FB6ADA1D29FEF800C2DEE9 /* waiting01.png */,
+				04FB6AD91D29FEF800C2DEE9 /* waiting02.png */,
+				04FB6ADD1D29FF0400C2DEE9 /* all02.png */,
+				04FB6ADE1D29FF0400C2DEE9 /* all01.png */,
+				04FB6AE11D2A302400C2DEE9 /* chatXin.png */,
 				04EE62E41CED9DF700EA2908 /* AppDelegate.h */,
 				04EE62E51CED9DF700EA2908 /* AppDelegate.m */,
 				04EE62E71CED9DF700EA2908 /* ViewController.h */,
 				04EE62E81CED9DF700EA2908 /* ViewController.m */,
+				04FB6AD61D29F9C300C2DEE9 /* TMPubOnSearchViewController.h */,
+				04FB6AD71D29F9C300C2DEE9 /* TMPubOnSearchViewController.m */,
+				04FB6AE31D2A402700C2DEE9 /* TMStepAlertView.h */,
+				04FB6AE41D2A402700C2DEE9 /* TMStepAlertView.m */,
 				04EE62EA1CED9DF700EA2908 /* Main.storyboard */,
 				04EE62F01CED9DF700EA2908 /* Assets.xcassets */,
 				04EE62F21CED9DF700EA2908 /* LaunchScreen.storyboard */,
@@ -317,6 +345,12 @@
 				04EE62F41CED9DF700EA2908 /* LaunchScreen.storyboard in Resources */,
 				04EE62F11CED9DF700EA2908 /* Assets.xcassets in Resources */,
 				04EE62EC1CED9DF700EA2908 /* Main.storyboard in Resources */,
+				04FB6AE01D29FF0400C2DEE9 /* all01.png in Resources */,
+				046222981D33693200470AD5 /* area.json in Resources */,
+				04FB6ADF1D29FF0400C2DEE9 /* all02.png in Resources */,
+				04FB6AE21D2A302500C2DEE9 /* chatXin.png in Resources */,
+				04FB6ADC1D29FEF800C2DEE9 /* waiting01.png in Resources */,
+				04FB6ADB1D29FEF800C2DEE9 /* waiting02.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -350,8 +384,10 @@
 				04EE63391CED9E2600EA2908 /* NSArray+MASAdditions.m in Sources */,
 				04EE63381CED9E2600EA2908 /* MASViewConstraint.m in Sources */,
 				04EE63371CED9E2600EA2908 /* MASViewAttribute.m in Sources */,
+				04FB6AD81D29F9C300C2DEE9 /* TMPubOnSearchViewController.m in Sources */,
 				04EE633B1CED9E2600EA2908 /* View+MASAdditions.m in Sources */,
 				04EE62EF1CED9DF700EA2908 /* MasDemo.xcdatamodeld in Sources */,
+				04FB6AE51D2A402700C2DEE9 /* TMStepAlertView.m in Sources */,
 				04EE62E31CED9DF700EA2908 /* main.m in Sources */,
 				04EE63331CED9E2600EA2908 /* MASCompositeConstraint.m in Sources */,
 				04EE633A1CED9E2600EA2908 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
@@ -578,6 +614,7 @@
 				04EE63101CED9DF700EA2908 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		04EE63111CED9DF700EA2908 /* Build configuration list for PBXNativeTarget "MasDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -586,6 +623,7 @@
 				04EE63131CED9DF700EA2908 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		04EE63141CED9DF700EA2908 /* Build configuration list for PBXNativeTarget "MasDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -594,6 +632,7 @@
 				04EE63161CED9DF700EA2908 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
