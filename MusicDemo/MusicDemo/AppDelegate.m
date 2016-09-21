@@ -47,7 +47,15 @@
     //不需要advertisingID  填nil
     [JPUSHService setupWithOption:launchOptions appKey:appKey channel:channel apsForProduction:isProduction advertisingIdentifier:advertisingID];
     
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(JPUSHNetworkDidLogin:) name:kJPFNetworkDidLoginNotification object:nil];
+    
     return YES;
+}
+
+//极光推送注册成功
+- (void)JPUSHNetworkDidLogin:(NSNotification *)notification {
+    NSLog(@"-----极光推送注册成功-----\n%@",notification);
+    [[NSNotificationCenter defaultCenter] removeObserver:self name:kJPFNetworkDidLoginNotification object:nil];
 }
 
 - (void)application:(UIApplication *)application didRegisterForRemoteNotificationsWithDeviceToken:(NSData *)deviceToken {

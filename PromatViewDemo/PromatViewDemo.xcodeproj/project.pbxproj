@@ -1,0 +1,536 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04F0ED121D79199200E6F2DF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F0ED111D79199200E6F2DF /* main.m */; };
+		04F0ED151D79199200E6F2DF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F0ED141D79199200E6F2DF /* AppDelegate.m */; };
+		04F0ED181D79199200E6F2DF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F0ED171D79199200E6F2DF /* ViewController.m */; };
+		04F0ED1B1D79199200E6F2DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04F0ED191D79199200E6F2DF /* Main.storyboard */; };
+		04F0ED1E1D79199200E6F2DF /* PromatViewDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 04F0ED1C1D79199200E6F2DF /* PromatViewDemo.xcdatamodeld */; };
+		04F0ED201D79199200E6F2DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04F0ED1F1D79199200E6F2DF /* Assets.xcassets */; };
+		04F0ED231D79199200E6F2DF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04F0ED211D79199200E6F2DF /* LaunchScreen.storyboard */; };
+		04F0ED2E1D79199200E6F2DF /* PromatViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F0ED2D1D79199200E6F2DF /* PromatViewDemoTests.m */; };
+		04F0ED391D79199200E6F2DF /* PromatViewDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F0ED381D79199200E6F2DF /* PromatViewDemoUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04F0ED2A1D79199200E6F2DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04F0ED051D79199200E6F2DF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04F0ED0C1D79199200E6F2DF;
+			remoteInfo = PromatViewDemo;
+		};
+		04F0ED351D79199200E6F2DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04F0ED051D79199200E6F2DF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04F0ED0C1D79199200E6F2DF;
+			remoteInfo = PromatViewDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04F0ED0D1D79199200E6F2DF /* PromatViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PromatViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04F0ED111D79199200E6F2DF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		04F0ED131D79199200E6F2DF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		04F0ED141D79199200E6F2DF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		04F0ED161D79199200E6F2DF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		04F0ED171D79199200E6F2DF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		04F0ED1A1D79199200E6F2DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		04F0ED1D1D79199200E6F2DF /* PromatViewDemo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PromatViewDemo.xcdatamodel; sourceTree = "<group>"; };
+		04F0ED1F1D79199200E6F2DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04F0ED221D79199200E6F2DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		04F0ED241D79199200E6F2DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04F0ED291D79199200E6F2DF /* PromatViewDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PromatViewDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04F0ED2D1D79199200E6F2DF /* PromatViewDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PromatViewDemoTests.m; sourceTree = "<group>"; };
+		04F0ED2F1D79199200E6F2DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04F0ED341D79199200E6F2DF /* PromatViewDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PromatViewDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04F0ED381D79199200E6F2DF /* PromatViewDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PromatViewDemoUITests.m; sourceTree = "<group>"; };
+		04F0ED3A1D79199200E6F2DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04F0ED0A1D79199200E6F2DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04F0ED261D79199200E6F2DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04F0ED311D79199200E6F2DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04F0ED041D79199200E6F2DF = {
+			isa = PBXGroup;
+			children = (
+				04F0ED0F1D79199200E6F2DF /* PromatViewDemo */,
+				04F0ED2C1D79199200E6F2DF /* PromatViewDemoTests */,
+				04F0ED371D79199200E6F2DF /* PromatViewDemoUITests */,
+				04F0ED0E1D79199200E6F2DF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04F0ED0E1D79199200E6F2DF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04F0ED0D1D79199200E6F2DF /* PromatViewDemo.app */,
+				04F0ED291D79199200E6F2DF /* PromatViewDemoTests.xctest */,
+				04F0ED341D79199200E6F2DF /* PromatViewDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04F0ED0F1D79199200E6F2DF /* PromatViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				04F0ED131D79199200E6F2DF /* AppDelegate.h */,
+				04F0ED141D79199200E6F2DF /* AppDelegate.m */,
+				04F0ED161D79199200E6F2DF /* ViewController.h */,
+				04F0ED171D79199200E6F2DF /* ViewController.m */,
+				04F0ED191D79199200E6F2DF /* Main.storyboard */,
+				04F0ED1F1D79199200E6F2DF /* Assets.xcassets */,
+				04F0ED211D79199200E6F2DF /* LaunchScreen.storyboard */,
+				04F0ED241D79199200E6F2DF /* Info.plist */,
+				04F0ED1C1D79199200E6F2DF /* PromatViewDemo.xcdatamodeld */,
+				04F0ED101D79199200E6F2DF /* Supporting Files */,
+			);
+			path = PromatViewDemo;
+			sourceTree = "<group>";
+		};
+		04F0ED101D79199200E6F2DF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				04F0ED111D79199200E6F2DF /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		04F0ED2C1D79199200E6F2DF /* PromatViewDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				04F0ED2D1D79199200E6F2DF /* PromatViewDemoTests.m */,
+				04F0ED2F1D79199200E6F2DF /* Info.plist */,
+			);
+			path = PromatViewDemoTests;
+			sourceTree = "<group>";
+		};
+		04F0ED371D79199200E6F2DF /* PromatViewDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				04F0ED381D79199200E6F2DF /* PromatViewDemoUITests.m */,
+				04F0ED3A1D79199200E6F2DF /* Info.plist */,
+			);
+			path = PromatViewDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04F0ED0C1D79199200E6F2DF /* PromatViewDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04F0ED3D1D79199200E6F2DF /* Build configuration list for PBXNativeTarget "PromatViewDemo" */;
+			buildPhases = (
+				04F0ED091D79199200E6F2DF /* Sources */,
+				04F0ED0A1D79199200E6F2DF /* Frameworks */,
+				04F0ED0B1D79199200E6F2DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PromatViewDemo;
+			productName = PromatViewDemo;
+			productReference = 04F0ED0D1D79199200E6F2DF /* PromatViewDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		04F0ED281D79199200E6F2DF /* PromatViewDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04F0ED401D79199200E6F2DF /* Build configuration list for PBXNativeTarget "PromatViewDemoTests" */;
+			buildPhases = (
+				04F0ED251D79199200E6F2DF /* Sources */,
+				04F0ED261D79199200E6F2DF /* Frameworks */,
+				04F0ED271D79199200E6F2DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04F0ED2B1D79199200E6F2DF /* PBXTargetDependency */,
+			);
+			name = PromatViewDemoTests;
+			productName = PromatViewDemoTests;
+			productReference = 04F0ED291D79199200E6F2DF /* PromatViewDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		04F0ED331D79199200E6F2DF /* PromatViewDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04F0ED431D79199200E6F2DF /* Build configuration list for PBXNativeTarget "PromatViewDemoUITests" */;
+			buildPhases = (
+				04F0ED301D79199200E6F2DF /* Sources */,
+				04F0ED311D79199200E6F2DF /* Frameworks */,
+				04F0ED321D79199200E6F2DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04F0ED361D79199200E6F2DF /* PBXTargetDependency */,
+			);
+			name = PromatViewDemoUITests;
+			productName = PromatViewDemoUITests;
+			productReference = 04F0ED341D79199200E6F2DF /* PromatViewDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04F0ED051D79199200E6F2DF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Taskmall;
+				TargetAttributes = {
+					04F0ED0C1D79199200E6F2DF = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					04F0ED281D79199200E6F2DF = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 04F0ED0C1D79199200E6F2DF;
+					};
+					04F0ED331D79199200E6F2DF = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 04F0ED0C1D79199200E6F2DF;
+					};
+				};
+			};
+			buildConfigurationList = 04F0ED081D79199200E6F2DF /* Build configuration list for PBXProject "PromatViewDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04F0ED041D79199200E6F2DF;
+			productRefGroup = 04F0ED0E1D79199200E6F2DF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04F0ED0C1D79199200E6F2DF /* PromatViewDemo */,
+				04F0ED281D79199200E6F2DF /* PromatViewDemoTests */,
+				04F0ED331D79199200E6F2DF /* PromatViewDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04F0ED0B1D79199200E6F2DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04F0ED231D79199200E6F2DF /* LaunchScreen.storyboard in Resources */,
+				04F0ED201D79199200E6F2DF /* Assets.xcassets in Resources */,
+				04F0ED1B1D79199200E6F2DF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04F0ED271D79199200E6F2DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04F0ED321D79199200E6F2DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04F0ED091D79199200E6F2DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04F0ED181D79199200E6F2DF /* ViewController.m in Sources */,
+				04F0ED151D79199200E6F2DF /* AppDelegate.m in Sources */,
+				04F0ED1E1D79199200E6F2DF /* PromatViewDemo.xcdatamodeld in Sources */,
+				04F0ED121D79199200E6F2DF /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04F0ED251D79199200E6F2DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04F0ED2E1D79199200E6F2DF /* PromatViewDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04F0ED301D79199200E6F2DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04F0ED391D79199200E6F2DF /* PromatViewDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04F0ED2B1D79199200E6F2DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04F0ED0C1D79199200E6F2DF /* PromatViewDemo */;
+			targetProxy = 04F0ED2A1D79199200E6F2DF /* PBXContainerItemProxy */;
+		};
+		04F0ED361D79199200E6F2DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04F0ED0C1D79199200E6F2DF /* PromatViewDemo */;
+			targetProxy = 04F0ED351D79199200E6F2DF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		04F0ED191D79199200E6F2DF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04F0ED1A1D79199200E6F2DF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		04F0ED211D79199200E6F2DF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04F0ED221D79199200E6F2DF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04F0ED3B1D79199200E6F2DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		04F0ED3C1D79199200E6F2DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04F0ED3E1D79199200E6F2DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PromatViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.taskmall.www.PromatViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		04F0ED3F1D79199200E6F2DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PromatViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.taskmall.www.PromatViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		04F0ED411D79199200E6F2DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PromatViewDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.taskmall.www.PromatViewDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PromatViewDemo.app/PromatViewDemo";
+			};
+			name = Debug;
+		};
+		04F0ED421D79199200E6F2DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PromatViewDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.taskmall.www.PromatViewDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PromatViewDemo.app/PromatViewDemo";
+			};
+			name = Release;
+		};
+		04F0ED441D79199200E6F2DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PromatViewDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.taskmall.www.PromatViewDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PromatViewDemo;
+			};
+			name = Debug;
+		};
+		04F0ED451D79199200E6F2DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PromatViewDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.taskmall.www.PromatViewDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PromatViewDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04F0ED081D79199200E6F2DF /* Build configuration list for PBXProject "PromatViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04F0ED3B1D79199200E6F2DF /* Debug */,
+				04F0ED3C1D79199200E6F2DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04F0ED3D1D79199200E6F2DF /* Build configuration list for PBXNativeTarget "PromatViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04F0ED3E1D79199200E6F2DF /* Debug */,
+				04F0ED3F1D79199200E6F2DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		04F0ED401D79199200E6F2DF /* Build configuration list for PBXNativeTarget "PromatViewDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04F0ED411D79199200E6F2DF /* Debug */,
+				04F0ED421D79199200E6F2DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		04F0ED431D79199200E6F2DF /* Build configuration list for PBXNativeTarget "PromatViewDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04F0ED441D79199200E6F2DF /* Debug */,
+				04F0ED451D79199200E6F2DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		04F0ED1C1D79199200E6F2DF /* PromatViewDemo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				04F0ED1D1D79199200E6F2DF /* PromatViewDemo.xcdatamodel */,
+			);
+			currentVersion = 04F0ED1D1D79199200E6F2DF /* PromatViewDemo.xcdatamodel */;
+			path = PromatViewDemo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 04F0ED051D79199200E6F2DF /* Project object */;
+}

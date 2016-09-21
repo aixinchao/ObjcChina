@@ -1,0 +1,538 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04BE2F5C1D82A4BE00A5F2D4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BE2F5B1D82A4BE00A5F2D4 /* main.m */; };
+		04BE2F5F1D82A4BE00A5F2D4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BE2F5E1D82A4BE00A5F2D4 /* AppDelegate.m */; };
+		04BE2F621D82A4BE00A5F2D4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BE2F611D82A4BE00A5F2D4 /* ViewController.m */; };
+		04BE2F651D82A4BE00A5F2D4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04BE2F631D82A4BE00A5F2D4 /* Main.storyboard */; };
+		04BE2F681D82A4BE00A5F2D4 /* WoDeTianDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 04BE2F661D82A4BE00A5F2D4 /* WoDeTianDemo.xcdatamodeld */; };
+		04BE2F6A1D82A4BE00A5F2D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04BE2F691D82A4BE00A5F2D4 /* Assets.xcassets */; };
+		04BE2F6D1D82A4BE00A5F2D4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04BE2F6B1D82A4BE00A5F2D4 /* LaunchScreen.storyboard */; };
+		04BE2F781D82A4BF00A5F2D4 /* WoDeTianDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BE2F771D82A4BF00A5F2D4 /* WoDeTianDemoTests.m */; };
+		04BE2F831D82A4BF00A5F2D4 /* WoDeTianDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BE2F821D82A4BF00A5F2D4 /* WoDeTianDemoUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04BE2F741D82A4BF00A5F2D4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04BE2F4F1D82A4BD00A5F2D4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04BE2F561D82A4BD00A5F2D4;
+			remoteInfo = WoDeTianDemo;
+		};
+		04BE2F7F1D82A4BF00A5F2D4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04BE2F4F1D82A4BD00A5F2D4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04BE2F561D82A4BD00A5F2D4;
+			remoteInfo = WoDeTianDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04BE2F571D82A4BD00A5F2D4 /* WoDeTianDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WoDeTianDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04BE2F5B1D82A4BE00A5F2D4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		04BE2F5D1D82A4BE00A5F2D4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		04BE2F5E1D82A4BE00A5F2D4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		04BE2F601D82A4BE00A5F2D4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		04BE2F611D82A4BE00A5F2D4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		04BE2F641D82A4BE00A5F2D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		04BE2F671D82A4BE00A5F2D4 /* WoDeTianDemo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WoDeTianDemo.xcdatamodel; sourceTree = "<group>"; };
+		04BE2F691D82A4BE00A5F2D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04BE2F6C1D82A4BE00A5F2D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		04BE2F6E1D82A4BE00A5F2D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04BE2F731D82A4BF00A5F2D4 /* WoDeTianDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WoDeTianDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04BE2F771D82A4BF00A5F2D4 /* WoDeTianDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WoDeTianDemoTests.m; sourceTree = "<group>"; };
+		04BE2F791D82A4BF00A5F2D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04BE2F7E1D82A4BF00A5F2D4 /* WoDeTianDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WoDeTianDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04BE2F821D82A4BF00A5F2D4 /* WoDeTianDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WoDeTianDemoUITests.m; sourceTree = "<group>"; };
+		04BE2F841D82A4BF00A5F2D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04BE2F541D82A4BD00A5F2D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04BE2F701D82A4BF00A5F2D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04BE2F7B1D82A4BF00A5F2D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04BE2F4E1D82A4BD00A5F2D4 = {
+			isa = PBXGroup;
+			children = (
+				04BE2F591D82A4BE00A5F2D4 /* WoDeTianDemo */,
+				04BE2F761D82A4BF00A5F2D4 /* WoDeTianDemoTests */,
+				04BE2F811D82A4BF00A5F2D4 /* WoDeTianDemoUITests */,
+				04BE2F581D82A4BD00A5F2D4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04BE2F581D82A4BD00A5F2D4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04BE2F571D82A4BD00A5F2D4 /* WoDeTianDemo.app */,
+				04BE2F731D82A4BF00A5F2D4 /* WoDeTianDemoTests.xctest */,
+				04BE2F7E1D82A4BF00A5F2D4 /* WoDeTianDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04BE2F591D82A4BE00A5F2D4 /* WoDeTianDemo */ = {
+			isa = PBXGroup;
+			children = (
+				04BE2F5D1D82A4BE00A5F2D4 /* AppDelegate.h */,
+				04BE2F5E1D82A4BE00A5F2D4 /* AppDelegate.m */,
+				04BE2F601D82A4BE00A5F2D4 /* ViewController.h */,
+				04BE2F611D82A4BE00A5F2D4 /* ViewController.m */,
+				04BE2F631D82A4BE00A5F2D4 /* Main.storyboard */,
+				04BE2F691D82A4BE00A5F2D4 /* Assets.xcassets */,
+				04BE2F6B1D82A4BE00A5F2D4 /* LaunchScreen.storyboard */,
+				04BE2F6E1D82A4BE00A5F2D4 /* Info.plist */,
+				04BE2F661D82A4BE00A5F2D4 /* WoDeTianDemo.xcdatamodeld */,
+				04BE2F5A1D82A4BE00A5F2D4 /* Supporting Files */,
+			);
+			path = WoDeTianDemo;
+			sourceTree = "<group>";
+		};
+		04BE2F5A1D82A4BE00A5F2D4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				04BE2F5B1D82A4BE00A5F2D4 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		04BE2F761D82A4BF00A5F2D4 /* WoDeTianDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				04BE2F771D82A4BF00A5F2D4 /* WoDeTianDemoTests.m */,
+				04BE2F791D82A4BF00A5F2D4 /* Info.plist */,
+			);
+			path = WoDeTianDemoTests;
+			sourceTree = "<group>";
+		};
+		04BE2F811D82A4BF00A5F2D4 /* WoDeTianDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				04BE2F821D82A4BF00A5F2D4 /* WoDeTianDemoUITests.m */,
+				04BE2F841D82A4BF00A5F2D4 /* Info.plist */,
+			);
+			path = WoDeTianDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04BE2F561D82A4BD00A5F2D4 /* WoDeTianDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04BE2F871D82A4BF00A5F2D4 /* Build configuration list for PBXNativeTarget "WoDeTianDemo" */;
+			buildPhases = (
+				04BE2F531D82A4BD00A5F2D4 /* Sources */,
+				04BE2F541D82A4BD00A5F2D4 /* Frameworks */,
+				04BE2F551D82A4BD00A5F2D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WoDeTianDemo;
+			productName = WoDeTianDemo;
+			productReference = 04BE2F571D82A4BD00A5F2D4 /* WoDeTianDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		04BE2F721D82A4BF00A5F2D4 /* WoDeTianDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04BE2F8A1D82A4BF00A5F2D4 /* Build configuration list for PBXNativeTarget "WoDeTianDemoTests" */;
+			buildPhases = (
+				04BE2F6F1D82A4BF00A5F2D4 /* Sources */,
+				04BE2F701D82A4BF00A5F2D4 /* Frameworks */,
+				04BE2F711D82A4BF00A5F2D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04BE2F751D82A4BF00A5F2D4 /* PBXTargetDependency */,
+			);
+			name = WoDeTianDemoTests;
+			productName = WoDeTianDemoTests;
+			productReference = 04BE2F731D82A4BF00A5F2D4 /* WoDeTianDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		04BE2F7D1D82A4BF00A5F2D4 /* WoDeTianDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04BE2F8D1D82A4BF00A5F2D4 /* Build configuration list for PBXNativeTarget "WoDeTianDemoUITests" */;
+			buildPhases = (
+				04BE2F7A1D82A4BF00A5F2D4 /* Sources */,
+				04BE2F7B1D82A4BF00A5F2D4 /* Frameworks */,
+				04BE2F7C1D82A4BF00A5F2D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04BE2F801D82A4BF00A5F2D4 /* PBXTargetDependency */,
+			);
+			name = WoDeTianDemoUITests;
+			productName = WoDeTianDemoUITests;
+			productReference = 04BE2F7E1D82A4BF00A5F2D4 /* WoDeTianDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04BE2F4F1D82A4BD00A5F2D4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Taskmall;
+				TargetAttributes = {
+					04BE2F561D82A4BD00A5F2D4 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					04BE2F721D82A4BF00A5F2D4 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 04BE2F561D82A4BD00A5F2D4;
+					};
+					04BE2F7D1D82A4BF00A5F2D4 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 04BE2F561D82A4BD00A5F2D4;
+					};
+				};
+			};
+			buildConfigurationList = 04BE2F521D82A4BD00A5F2D4 /* Build configuration list for PBXProject "WoDeTianDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04BE2F4E1D82A4BD00A5F2D4;
+			productRefGroup = 04BE2F581D82A4BD00A5F2D4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04BE2F561D82A4BD00A5F2D4 /* WoDeTianDemo */,
+				04BE2F721D82A4BF00A5F2D4 /* WoDeTianDemoTests */,
+				04BE2F7D1D82A4BF00A5F2D4 /* WoDeTianDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04BE2F551D82A4BD00A5F2D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04BE2F6D1D82A4BE00A5F2D4 /* LaunchScreen.storyboard in Resources */,
+				04BE2F6A1D82A4BE00A5F2D4 /* Assets.xcassets in Resources */,
+				04BE2F651D82A4BE00A5F2D4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04BE2F711D82A4BF00A5F2D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04BE2F7C1D82A4BF00A5F2D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04BE2F531D82A4BD00A5F2D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04BE2F621D82A4BE00A5F2D4 /* ViewController.m in Sources */,
+				04BE2F681D82A4BE00A5F2D4 /* WoDeTianDemo.xcdatamodeld in Sources */,
+				04BE2F5F1D82A4BE00A5F2D4 /* AppDelegate.m in Sources */,
+				04BE2F5C1D82A4BE00A5F2D4 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04BE2F6F1D82A4BF00A5F2D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04BE2F781D82A4BF00A5F2D4 /* WoDeTianDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04BE2F7A1D82A4BF00A5F2D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04BE2F831D82A4BF00A5F2D4 /* WoDeTianDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04BE2F751D82A4BF00A5F2D4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04BE2F561D82A4BD00A5F2D4 /* WoDeTianDemo */;
+			targetProxy = 04BE2F741D82A4BF00A5F2D4 /* PBXContainerItemProxy */;
+		};
+		04BE2F801D82A4BF00A5F2D4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04BE2F561D82A4BD00A5F2D4 /* WoDeTianDemo */;
+			targetProxy = 04BE2F7F1D82A4BF00A5F2D4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		04BE2F631D82A4BE00A5F2D4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04BE2F641D82A4BE00A5F2D4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		04BE2F6B1D82A4BE00A5F2D4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04BE2F6C1D82A4BE00A5F2D4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04BE2F851D82A4BF00A5F2D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		04BE2F861D82A4BF00A5F2D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04BE2F881D82A4BF00A5F2D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WoDeTianDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.taskmall.www.WoDeTianDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		04BE2F891D82A4BF00A5F2D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WoDeTianDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.taskmall.www.WoDeTianDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		04BE2F8B1D82A4BF00A5F2D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WoDeTianDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.taskmall.www.WoDeTianDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WoDeTianDemo.app/WoDeTianDemo";
+			};
+			name = Debug;
+		};
+		04BE2F8C1D82A4BF00A5F2D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WoDeTianDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.taskmall.www.WoDeTianDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WoDeTianDemo.app/WoDeTianDemo";
+			};
+			name = Release;
+		};
+		04BE2F8E1D82A4BF00A5F2D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WoDeTianDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.taskmall.www.WoDeTianDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WoDeTianDemo;
+			};
+			name = Debug;
+		};
+		04BE2F8F1D82A4BF00A5F2D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WoDeTianDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.taskmall.www.WoDeTianDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WoDeTianDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04BE2F521D82A4BD00A5F2D4 /* Build configuration list for PBXProject "WoDeTianDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04BE2F851D82A4BF00A5F2D4 /* Debug */,
+				04BE2F861D82A4BF00A5F2D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04BE2F871D82A4BF00A5F2D4 /* Build configuration list for PBXNativeTarget "WoDeTianDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04BE2F881D82A4BF00A5F2D4 /* Debug */,
+				04BE2F891D82A4BF00A5F2D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		04BE2F8A1D82A4BF00A5F2D4 /* Build configuration list for PBXNativeTarget "WoDeTianDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04BE2F8B1D82A4BF00A5F2D4 /* Debug */,
+				04BE2F8C1D82A4BF00A5F2D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		04BE2F8D1D82A4BF00A5F2D4 /* Build configuration list for PBXNativeTarget "WoDeTianDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04BE2F8E1D82A4BF00A5F2D4 /* Debug */,
+				04BE2F8F1D82A4BF00A5F2D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		04BE2F661D82A4BE00A5F2D4 /* WoDeTianDemo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				04BE2F671D82A4BE00A5F2D4 /* WoDeTianDemo.xcdatamodel */,
+			);
+			currentVersion = 04BE2F671D82A4BE00A5F2D4 /* WoDeTianDemo.xcdatamodel */;
+			path = WoDeTianDemo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 04BE2F4F1D82A4BD00A5F2D4 /* Project object */;
+}
