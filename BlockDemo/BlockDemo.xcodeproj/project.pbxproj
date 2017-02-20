@@ -215,6 +215,7 @@
 				TargetAttributes = {
 					04B9CAEC1D92584700A43484 = {
 						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 27CE7V8855;
 					};
 					04B9CB081D92584800A43484 = {
 						CreatedOnToolsVersion = 7.3;
@@ -423,6 +424,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 27CE7V8855;
 				INFOPLIST_FILE = BlockDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.taskmall.www.BlockDemo;
@@ -434,6 +436,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 27CE7V8855;
 				INFOPLIST_FILE = BlockDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.taskmall.www.BlockDemo;
@@ -506,6 +509,7 @@
 				04B9CB1F1D92584800A43484 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		04B9CB201D92584800A43484 /* Build configuration list for PBXNativeTarget "BlockDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +518,7 @@
 				04B9CB221D92584800A43484 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		04B9CB231D92584800A43484 /* Build configuration list for PBXNativeTarget "BlockDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +527,7 @@
 				04B9CB251D92584800A43484 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
